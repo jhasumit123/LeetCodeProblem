@@ -9,7 +9,7 @@
         hashmap.set(nums[i], i);
     }
     for (var i = 0; i < nums.length; i++) {
-        var firstNum = nums[i];
+        var firstNum = nums[i]; 
         var re = target - firstNum;
         if (hashmap.has(re)) {
             var ind = hashmap.get(re);
